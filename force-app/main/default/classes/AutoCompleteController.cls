@@ -91,8 +91,8 @@ public class AutoCompleteController {
         }
 
         system.debug('AutoCompleteController Ids found: '+outputIds.size());
-        //system.debug(returnList);
-        //system.debug('AutoCompleteController_CPU time: '+System.Limits.getCpuTime());
+        system.debug(returnList);
+        system.debug('AutoCompleteController_CPU time: '+System.Limits.getCpuTime());
         
         return returnList;
     }
